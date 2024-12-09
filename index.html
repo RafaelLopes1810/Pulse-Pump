@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css"> 
-    <script src="assets/js/entrada.js"></script>
+    <link rel="stylesheet" href="public/assets/css/style.css"> 
+    <script src="public/assets/js/entrada.js"></script>
     <style>
         .about {
             cursor: pointer;
@@ -19,10 +19,10 @@
 </head>
 <body>
     <div class="header">
-        <a href="index.html"><img src="assets/images/logonomelaranja.png" width="250"></a>
+        <a href="index.html"><img src="public/assets/images/logonomelaranja.png" width="250"></a>
     </div>
     <div class="container">
-        <div class="about" onclick="window.location.href='about.html'">
+        <div class="about" onclick="window.location.href='public/about.html'">
             <h2>SOBRE NÓS:</h2>
             <p class="sobre">É notável que no mundo atual, os exercícios se tornam essenciais para se ter mais qualidade de vida, onde a tecnologia vem promovendo o vício em telas e o sedentarismo.<br>
             Então, para ajudar e motivar as pessoas que decidem ir fora dessa tendência, nosso objetivo é desenvolver uma plataforma onde os usuários se sintam motivados a treinar e se exercitar,
@@ -30,14 +30,14 @@
         </div>
         <div class="login">
             <div class="logo">
-                <img src="assets/images/logoescura.png" alt="Headphones icon" width="100" height="50">
+                <img src="public/assets/images/logoescura.png" alt="Headphones icon" width="100" height="50">
             </div>
             <label for="username">Usuário:</label>
             <input type="text" id="username" name="username">
             <label for="password">Senha:</label>
             <input type="password" id="password" name="password">
             <div>
-                <button class="signup" onclick="window.location.href='cadastro.html'">Inscreva-se</button> <!-- Adicionado link para a página de cadastro -->
+                <button class="signup" onclick="window.location.href='public/cadastro.html'">Inscreva-se</button> <!-- Adicionado link para a página de cadastro -->
                 <button class="login-btn" onclick="loginUser()">Login</button>
             </div>
         </div>

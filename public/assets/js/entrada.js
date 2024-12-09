@@ -19,7 +19,7 @@ function saveUserInfo() {
   localStorage.setItem('userInfo', userInfoJSON);
   alert('Informações salvas com sucesso!');
   
-  window.location.href = 'home.html'; 
+  window.location.href = 'public/home.html'; 
 }
 
 function loginUser() {
@@ -37,7 +37,7 @@ function loginUser() {
     if (userInfo.username === username && userInfo.password === password) {
       alert('Bem-vindo vamos começar os treinos?');
       
-      window.location.href = 'home.html'; 
+      window.location.href = 'public/home.html'; 
     } else {
       alert('Nome de usuário ou senha incorretos.');
     }
