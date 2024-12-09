@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header {
+  background-color: #000000;
+  color: #ff6600;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Archivo Black', sans-serif; 
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.about {
+  background-color: #cccccc;
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.about a {
+  text-decoration: none;
+  color:inherit;
+}
+
+.about:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8) !important;
+}
+.about .sobre{
+  font-size: 16px;
+  color: #000000;
+  margin-top: 10px;
+  font-family: 'Archivo Black', sans-serif;
+}
+.about h2 {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Archivo Black', sans-serif;
+}
+.about .logo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  font-family: 'Archivo Black', sans-serif;
+}
+.about .logo span {
+  color: #ff6600;
+  font-family: 'Archivo Black', sans-serif;
+}
+.login {
+  background-color: #ff6600;
+  width: 300px;
+  height: 300px; 
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.login .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Archivo Black', sans-serif;
+}
+.login .logo img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.login label {
+  font-size: 18px;
+  color: #000000;
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Archivo Black', sans-serif;
+}
+.login input[type="text"],
+.login input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.login button {
+  width: calc(50% - 10px);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Archivo Black', sans-serif;
+  transition: all 0.3s ease;
+}
+.login button:hover {
+  background-color: #ff6600;
+  transform: scale(1.05);
+}
+.footer {
+  background-color: #000000;
+  height: 50px;
+}
